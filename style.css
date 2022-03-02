@@ -1,3 +1,104 @@
-h1{
-    color: yellow;
+body{
+   background-color: hsl(217, 54%, 11%);
+
+}
+
+.caixa{
+    width: 290px;
+    height: 480px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2%;
+    margin: 4% 38%;
+    box-shadow: hsl(215, 32%, 27%) 2px 5px 50px;
+}
+
+img{
+    width: 240px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    top: -3px;
+}
+
+img:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    background-image: url(icon-view.svg);
+}
+
+.caixa-central{
+    width: 250px;
+    height: 450px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    right: -20px;
+    top: 23px;
+    box-sizing: border-box;
+}
+
+.textos{
+    position: relative;
+    right: 0;
+    top: -10px;
+    font-size: 5px;
+    display: inline-block;
+    size: 0px;
+}
+
+h2{
+    font-family: 'Outfit', sans-serif;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p{
+    font-size: 14px;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    opacity: 85%;
+}
+
+hr{
+    position: relative;
+    top: 50px;
+    opacity: 40%;
+}
+
+.criador{
+    position: relative;
+    top: 44px;
+    width: 250px;
+    height: 35px;
+}
+
+.circulo{
+    width: 27px; 
+    height: 27px; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 50px;
+}
+
+.criador img{
+    width: 10%;
+    top: -26.2px;
+    right: -1px;
+}
+
+.criador p{
+    position: relative;
+    top: -66px;
+    right: -45px;
+}
+
+.criador p strong:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
